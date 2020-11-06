@@ -1,0 +1,29 @@
+rem Installing numpy, pytz, six, python-dateutil, pandas
+pip install ./libs/numpy-1.18.5-cp35-cp35m-win32.whl
+pip install ./libs/pytz-2020.4-py2.py3-none-any.whl
+pip install ./libs/six-1.15.0-py2.py3-none-any.whl
+pip install ./libs/python_dateutil-2.8.1-py2.py3-none-any.whl
+pip install ./libs/pandas-0.25.3-cp35-cp35m-win32.whl
+
+rem Installing collected packages: pyparsing, cycler, kiwisolver, matplotlib
+pip install ./libs/pyparsing-2.4.7-py2.py3-none-any.whl
+pip install ./libs/cycler-0.10.0-py2.py3-none-any.whl
+pip install ./libs/kiwisolver-1.1.0-cp35-none-win32.whl
+pip install ./libs/matplotlib-3.0.3-cp35-cp35m-win32.whl
+
+rem Installing collected packages: decorator, ipython-genutils, traitlets, win-unicode-console, pickleshare, pygments, wcwidth, prompt-toolkit, colorama, backcall, parso, jedi, IPython
+pip install ./libs/decorator-4.4.2-py2.py3-none-any.whl
+pip install ./libs/ipython_genutils-0.2.0-py2.py3-none-any.whl
+pip install ./libs/traitlets-4.3.3-py2.py3-none-any.whl
+pip install ./libs/win_unicode_console-0.5.zip
+pip install ./libs/pickleshare-0.7.5-py2.py3-none-any.whl
+pip install ./libs/Pygments-2.7.2-py3-none-any.whl
+pip install ./libs/wcwidth-0.2.5-py2.py3-none-any.whl
+pip install ./libs/prompt_toolkit-2.0.10-py3-none-any.whl
+pip install ./libs/colorama-0.4.4-py2.py3-none-any.whl
+pip install ./libs/backcall-0.2.0-py2.py3-none-any.whl
+pip install ./libs/parso-0.7.1-py2.py3-none-any.whl
+pip install ./libs/jedi-0.17.2-py2.py3-none-any.whl
+pip install ./libs/ipython-7.9.0-py3-none-any.whl
+
+pause
